@@ -16,7 +16,7 @@ public class Sample {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://google.com");
+		driver.get("https://apple.com");
 		
 		Thread.sleep(5000);
 		
