@@ -18,7 +18,11 @@ public class Sample {
 		
 		driver.get("https://apple.com");
 		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
+		
+		driver.get("https://google.com");
+		
+		Thread.sleep(2000);
 		
 		driver.close();
 		
